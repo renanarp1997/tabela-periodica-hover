@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 1000px;
+    width: 100vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+}
+table{
+    height: 10px;
+    width: 20px;
+}
+#tabela-2{
+    margin-top: 20px;
+}
+#home{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 80px;
+}
+.nada{
+    direction: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #ffffff00;
+}
+.nada:hover{
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #ffffff00;
+    
+}
+td{
+    
+        height: 25px;
+        width: 50px;
+        font-size: 10px;
+        cursor: pointer;
+        background-color: rgb(31, 31, 31);
+        border: none;
+        color: #ffffff;
+        margin: 5px;
+        padding: 10px;
+    }
+#tabela-2{
+    float: left;
+}
+.não-metais:hover{
+    background-color: #A1D344;
+
+}
+.gases-nobres:hover{
+    background-color: #3D9EE3;
+
+}
+.metais-alcalinos:hover{
+    background-color: #F1B200;
+
+}
+.metais-alcalino-terrosos:hover{
+    background-color: #EADA00;
+
+}
+.semimetais:hover{
+    background-color: #4DB6AC;
+
+}
+.halogênios:hover{
+    background-color: #70CBEB;
+
+}
+.outros-metais:hover{
+    background-color: #A2C7D3;
+}
+.metais-de-transição:hover{
+    background-color: #EB8E8E;
+
+}
+.lantanídeos:hover{
+    background-color: #82e6ed;
+
+}
+.actinídios:hover{
+    background-color: #DCADD6;
+                                                                                 
+}
